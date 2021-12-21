@@ -1,0 +1,141 @@
+html {
+    height:100%;
+    font-size:1.5vw;
+    background-color:white;
+}
+
+body{
+    position: relative;
+    margin-left:5%;
+    width:95%;
+    height:inherit;
+}
+
+.relative1 {
+    position:relative;
+    height:10%;
+    background-color:black;
+    margin-left:-12%;
+    text-align:right;
+    padding-right:5%;
+    word-spacing:1vw;
+    padding-top:1.3vw;
+    width:112%;
+}
+
+.header {
+    margin-bottom:1%;
+    margin-top:7%;
+    width:auto;
+}
+
+input, #count {
+    color:white;
+    background-color:black;
+    letter-spacing:normal;
+    margin-top:1%;
+    margin-right:2vw;
+    width:auto;
+    font-size:120%;
+}
+
+#count {
+    padding: 3px;
+}
+
+a:hover {
+    text-decoration: none;;
+}
+
+.absolute1 {
+    position:absolute;
+    top:0%;
+    left:10%;
+    width:4%;
+    height:100%;
+    color:white;
+}
+
+.relative2 {
+    position:relative;
+    width:auto;
+    height:50%;
+}
+
+.absolute2 {
+    position:absolute;
+    top:5%;
+    right:10%;
+    width:auto;
+}
+
+.absolute3 {
+    position:absolute;
+    width:40vw;
+}
+
+a {
+    color:white;
+}
+
+.icon {
+    height:inherit;
+    margin-top:0px;
+    margin-left:10%;
+    width:100%;
+}
+
+footer {
+    position:absolute;
+    height:10%;
+    width:107%;
+    text-align:center;
+    padding-top:20px;
+    background-color:black;
+    color:white;
+    margin-left:-7%;
+    bottom:-10vw;
+}
+
+@media screen and (max-width:600px) {
+  body {
+    font-size:200%;
+  }
+
+  .relative1 {
+      height:7%;
+      padding-top:4vw;
+  }
+
+  .absolute1 {
+      width:10%;
+  }
+
+  .relative2 {
+      height:80%;
+      padding-top:40vw;
+  }
+
+  .absolute2 {
+      top:5%;
+      left:30%;
+      right:30%;
+      height: 40vw;
+
+  }
+
+  .absolute3 {
+    width:90vw;
+  }
+
+  .header {
+      margin-top: 10vw;
+  }
+
+  footer {
+      height:7%;
+      padding-top:4%;
+      bottom:-20vw;
+  }
+}
+
